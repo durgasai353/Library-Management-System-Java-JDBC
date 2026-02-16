@@ -8,8 +8,8 @@ public class DBConnection {
     private static final String URL =
         "jdbc:oracle:thin:@localhost:1521:XE";
 
-    private static final String USER = "system";
-    private static final String PASS = "admin";
+    private static final String USER = "YOUR_USERNAME";
+    private static final String PASS = "YOUR_PASSWORD";
 
     public static Connection getConnection() {
 
